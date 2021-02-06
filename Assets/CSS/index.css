@@ -5,3 +5,8 @@ body {
     background: -moz-linear-gradient(right, #BEB154, #E54694);
     background: linear-gradient(to left, #BEB154, #E54694);
 }
+
+#container {
+    border: solid black 2px;
+
+}
