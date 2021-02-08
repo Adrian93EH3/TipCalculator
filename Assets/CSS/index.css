@@ -9,8 +9,5 @@ body {
 #container {
     border: solid black 2px;
     background-color: white;
-    padding-left: 20px;
-    padding-bottom: 20px;
-    margin-left: 500px;
-    margin-right: 500px;
+    margin: 100px auto;
 }
