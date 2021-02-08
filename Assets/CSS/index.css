@@ -9,8 +9,12 @@ body {
 #container {
     border: solid black 2px;
     border-radius: 20px;
-    background-color: white;
+    background: white;
     margin: 100px auto;
     height: 525px;
     width: 360px;
+}
+
+h1 {
+    background: ;
 }
