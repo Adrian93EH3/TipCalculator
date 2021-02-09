@@ -36,3 +36,11 @@ form {
 select {
     margin-left: 10px;
 }
+
+#split {
+    margin-left: 10px;
+}
+
+#amountOfPeople {
+    margin-left: 20px;
+}
