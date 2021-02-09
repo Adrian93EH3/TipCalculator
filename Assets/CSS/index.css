@@ -24,3 +24,7 @@ h1 {
     border-top-left-radius: 17px;
     border-top-right-radius: 17px;
 }
+
+p {
+    padding-left: 10px;
+}
