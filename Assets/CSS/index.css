@@ -44,3 +44,7 @@ select {
 #amountOfPeople {
     margin-left: 20px;
 }
+
+button {
+    display: block;
+}
