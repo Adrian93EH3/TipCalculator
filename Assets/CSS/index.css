@@ -50,4 +50,6 @@ button {
     margin: 30px auto;
     border-radius: 3px;
     border-color: black;
+    background: black;
+    color: white;
 }
