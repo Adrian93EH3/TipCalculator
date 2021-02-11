@@ -49,4 +49,5 @@ button {
     display: block;
     margin: 30px auto;
     border-radius: 3px;
+    border-color: black;
 }
