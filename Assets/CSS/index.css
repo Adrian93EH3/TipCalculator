@@ -54,3 +54,8 @@ button {
     color: white;
     font-size: 15px;
 }
+
+button:hover {
+    background: gray;
+    color: black;
+}
