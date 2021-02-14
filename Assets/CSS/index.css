@@ -69,4 +69,5 @@ button:hover {
 
 #tip:before {
     content: "Total Tip";
+    font-size: 30px;
 }
