@@ -66,3 +66,7 @@ button:hover {
     font-weight: bold;
     text-align: center;
 }
+
+#tip:before {
+    content: "Total Tip";
+}
