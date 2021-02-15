@@ -10,5 +10,10 @@
         alert("Please fill out the input fields.");
         return;
     }
+    // If the variable of split has no content or is less than
+    // or equal to 1
+    if (split === "" || split <=1) () => {
+        
+    }
     tipCalculator();
 }
