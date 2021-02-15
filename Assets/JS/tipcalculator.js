@@ -1,7 +1,7 @@
 // GLOBAL VARIABLES
-let bill = $('#amount').value;
-let quality = $('#qualityOfService').value;
-let split = $('#split').value;
+var bill = document.getElementById("amount").value;
+let quality = document.getElementById('qualityOfService').value;
+let split = document.getElementById('split').value;
 
 // Making sure that the user can't skip crucial
 // inputs such as the bill amount and quality of service
