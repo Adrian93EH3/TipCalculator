@@ -37,11 +37,11 @@ select {
     margin-left: 10px;
 }
 
-#split {
-    margin-left: 10px;
+#amountOfPeople {
+    margin-left: 20px;
 }
 
-#amountOfPeople {
+#p {
     margin-left: 20px;
 }
 
