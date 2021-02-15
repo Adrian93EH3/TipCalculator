@@ -21,8 +21,9 @@ function tipCalculator() {
     else {
         document.getElementById("split").style.display = "block";
     }
-
-    document.getElementById("calculate").onclick() = function() {
+}
+    document.getElementById("calculate").onclick = function() {
+        console.log("hello")
         tipCalculator();
-    }
+    
 }
