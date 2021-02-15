@@ -16,6 +16,12 @@ function tipCalculator() {
         // If nobody is splitting the bill, there's no reason to display 'each'
         // on the bill amount
         document.getElementById("split").style.display = "none";
+    } //If the amount of people splitting the bill is greater than 1, then
+      //display the HTML of "each"
+    else {
+        document.getElementById("split").style.display = "block";
     }
+
+    
     tipCalculator();
 }
