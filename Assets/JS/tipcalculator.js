@@ -13,7 +13,7 @@
     // If the variable of split has no content or is less than
     // or equal to 1
     if (split === "" || split <=1) () => {
-        
+        document.getElementById("tip")
     }
     tipCalculator();
 }
