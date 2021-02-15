@@ -15,7 +15,7 @@
     if (split === "" || split <=1) () => {
         // If nobody is splitting the bill, there's no reason to display 'each'
         // on the bill amount
-        document.getElementById("tip").style.display = "none";
+        document.getElementById("split").style.display = "none";
     }
     tipCalculator();
 }
