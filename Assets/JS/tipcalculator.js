@@ -2,7 +2,7 @@
 (tipCalculator) => {
     let bill = document.getElementById("amount").value;
     let quality = document.getElementById('qualityOfService').value;
-    let split = document.getElementById('split').value;
+    let split = document.getElementById('amountOfPeople').value;
 
     // Making sure that the user can't skip crucial
     // inputs such as the bill amount and quality of service
