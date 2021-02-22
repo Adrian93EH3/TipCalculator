@@ -4,6 +4,7 @@ let quality = document.getElementById('qualityOfService').value;
 let split = document.getElementById('amountOfPeople').value;
 let total = (bill * quality) / split;
 
+// CALCULATOR FUNCTIONALITY
 function tipCalculator() {
     // Making sure that the user can't skip crucial
     // inputs such as the bill amount and quality of service
