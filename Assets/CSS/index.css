@@ -41,6 +41,10 @@ select {
     margin-left: 20px;
 }
 
+#split {
+    display: none;
+}
+
 #p {
     margin-left: 20px;
 }
