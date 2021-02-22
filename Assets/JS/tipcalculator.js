@@ -3,7 +3,8 @@ function tipCalculator() {
     let bill = document.getElementById("amount").value;
     let quality = document.getElementById('qualityOfService').value;
     let split = document.getElementById('amountOfPeople').value;
-    let total = (bill*quality) / split;
+    let total = (bill * quality) / split;
+
     // Making sure that the user can't skip crucial
     // inputs such as the bill amount and quality of service
     if (bill === "" || quality == 0) {
@@ -21,6 +22,9 @@ function tipCalculator() {
     else {
         document.getElementById("split").style.display = "block";
     }
+
+    //Rounding the math to the hundredths
+    total = Math.round(total * 100) / 100;
 }
     document.getElementById("calculate").onclick = function() {
         console.log("hello")
