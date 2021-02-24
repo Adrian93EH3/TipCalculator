@@ -24,7 +24,7 @@ function tipCalculator() {
         document.getElementById("split").style.display = "block";
     }
 
-    //Rounding the math to the hundredths
+    //Rounding the math to the tenths
     total = Math.round(total * 100) / 100;
 }
 // BUTTON FUNCTIONALITY, CALLS THE FUNCTION OF 'tipCalculator' SO EVERYTHING ABOVE CAN FIRE OFF UPON CLICK
