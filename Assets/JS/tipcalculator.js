@@ -30,6 +30,7 @@ function tipCalculator() {
     total = total.toFixed(2);
     // Display the tip
     document.getElementById("tip").style.display = "block";
+    document.getElementById("tip").innerHTML = total;
 }
 // BUTTON FUNCTIONALITY, CALLS THE FUNCTION OF 'tipCalculator' SO EVERYTHING ABOVE CAN FIRE OFF UPON CLICK
     document.getElementById("calculate").onclick = function() {
