@@ -24,11 +24,12 @@ function tipCalculator() {
         document.getElementById("split").style.display = "block";
     }
 
-    // Rounding the math to the tenths, display up to the hundreths
+    // Rounding the math to the hundredths
     total = Math.round(total * 100) / 100;
     // Makes sure we always have two digits after the decimal
     total = total.toFixed(2);
-    
+    // Display the tip
+    document.getElementById("tip").style.display = "block";
 }
 // BUTTON FUNCTIONALITY, CALLS THE FUNCTION OF 'tipCalculator' SO EVERYTHING ABOVE CAN FIRE OFF UPON CLICK
     document.getElementById("calculate").onclick = function() {
