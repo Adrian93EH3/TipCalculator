@@ -1,10 +1,10 @@
-// GLOBAL VARIABLES
+// GLOBAL VARIABLES //
 let bill = document.getElementById("amount").value;
 let quality = document.getElementById('qualityOfService').value;
 let split = document.getElementById('amountOfPeople').value;
 let total = (bill * quality) / split;
 
-// CALCULATOR FUNCTIONALITY
+// CALCULATOR FUNCTIONALITY //
 function tipCalculator() {
     // Making sure that the user can't skip crucial
     // inputs such as the bill amount and quality of service
@@ -24,7 +24,7 @@ function tipCalculator() {
         document.getElementById("split").style.display = "block";
     }
 
-    // LOGIC FOR THE TIP
+    // LOGIC FOR THE TIP //
     // Rounding the math to the hundredths
     total = Math.round(total * 100) / 100;
     // Makes sure we always have two digits after the decimal
@@ -33,8 +33,8 @@ function tipCalculator() {
     document.getElementById("tip").style.display = "block";
     // Swap through the DOM to the value of the 'total' variable
     document.getElementById("tip").innerHTML = total;
-    // END LOGIC OF TIP
-    
+    // END LOGIC OF TIP //
+
 }
 // BUTTON FUNCTIONALITY, CALLS THE FUNCTION OF 'tipCalculator' SO EVERYTHING ABOVE CAN FIRE OFF UPON CLICK
     document.getElementById("calculate").onclick = function() {

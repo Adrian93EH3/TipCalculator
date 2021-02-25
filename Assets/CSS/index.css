@@ -41,6 +41,10 @@ select {
     margin-left: 20px;
 }
 
+#tip {
+    display: none;
+}
+
 #split {
     display: none;
 }
