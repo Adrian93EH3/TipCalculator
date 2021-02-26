@@ -1,11 +1,11 @@
-// GLOBAL VARIABLES //
-var bill = document.getElementById("amount").value;
-var quality = document.getElementById('qualityOfService').value;
-var split = document.getElementById('amountOfPeople').value;
-var total = (bill * quality) / split;
 
 // CALCULATOR FUNCTIONALITY //
 function tipCalculator() {
+    // LOCAL VARIABLES
+    var bill = document.getElementById("amount").value;
+    var quality = document.getElementById('qualityOfService').value;
+    var split = document.getElementById('amountOfPeople').value;
+    var total = (bill * quality) / split;
     // Making sure that the user can't skip crucial
     // inputs such as the bill amount and quality of service
     // if (bill === "" || quality == 0) {
