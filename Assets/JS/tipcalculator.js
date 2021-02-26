@@ -1,8 +1,8 @@
 // GLOBAL VARIABLES //
-let bill = document.getElementById("amount").value;
-let quality = document.getElementById('qualityOfService').value;
-let split = document.getElementById('amountOfPeople').value;
-let total = (bill * quality) / split;
+var bill = document.getElementById("amount").value;
+var quality = document.getElementById('qualityOfService').value;
+var split = document.getElementById('amountOfPeople').value;
+var total = (bill * quality) / split;
 
 // CALCULATOR FUNCTIONALITY //
 function tipCalculator() {
@@ -15,7 +15,7 @@ function tipCalculator() {
     // If the variable of split has no content or is less than
     // or equal to 1
     if (split === "" || split <=1) {
-        document.getElementById("split").style.display = "block";
+        document.getElementById("each").style.display = "block";
     }
 
     // LOGIC FOR THE TIP //
