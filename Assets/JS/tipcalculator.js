@@ -1,4 +1,3 @@
-
 // CALCULATOR FUNCTIONALITY //
 function tipCalculator() {
     // LOCAL VARIABLES
