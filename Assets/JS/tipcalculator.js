@@ -33,6 +33,10 @@ function tipCalculator() {
 
 }
 
+// Hide on load since it's not nested
+document.getElementById("tip").style.display = "none";
+document.getElementById("each").style.display = "none";
+
 // BUTTON FUNCTIONALITY, CALLS THE FUNCTION OF 'tipCalculator' SO EVERYTHING ABOVE CAN FIRE OFF UPON CLICK
     document.getElementById("calculate").onclick = function() {
         tipCalculator();
