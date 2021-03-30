@@ -13,12 +13,12 @@ function tipCalculator() {
     }
     // If the variable of split has no content or is less than
     // or equal to 1
-    // if (split === "" || split <=1) {
-    //     // Don't display 'each'
-    //     document.getElementById("each").style.display = "none";
-    // }  else {
-    //     document.getElementById("each").style.display = "block";
-    //   }
+    if (split === "" || split <=1) {
+        // Don't display 'each'
+        document.getElementById("each").style.display = "none";
+    }  else {
+        document.getElementById("each").style.display = "block";
+      }
 
     // LOGIC FOR THE TIP //
     // Rounding the math to the hundredths
